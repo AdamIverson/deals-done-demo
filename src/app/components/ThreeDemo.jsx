@@ -11,12 +11,12 @@ function ThreeDemo() {
   const [data, setData] = useState([
     { number_of_reviews: 5, price: 1 },
     { number_of_reviews: 10, price: 10 },
-    { number_of_reviews: 15, price: 100 },
-    { number_of_reviews: 25, price: 1000 },
-    { number_of_reviews: 45, price: 5000 },
-    { number_of_reviews: 75, price: 9000 },
-    { number_of_reviews: 105, price: 10000 },
-    { number_of_reviews: 125, price: 11000 }
+    { number_of_reviews: 15, price: 50 },
+    { number_of_reviews: 25, price: 100 },
+    { number_of_reviews: 45, price: 500 },
+    { number_of_reviews: 75, price: 600 },
+    { number_of_reviews: 105, price: 700 },
+    { number_of_reviews: 125, price: 900 }
   ]);
 
 const svgRef = useRef();
